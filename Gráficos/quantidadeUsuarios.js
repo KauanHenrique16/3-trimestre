@@ -4,8 +4,8 @@ async function quantidadeUsuarios() {
     const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-usuarios.json'
     const res = await fetch(url)
     const dados = await res.json()
-    const nomeDasRedes = Object.keys(dados)
-    const quantidadeUsuarios = Object.values(dados)
+    const nomeDasRedes = ['Amazonas','Bahia','Mato Grosso do Sul']
+    const quantidadeUsuarios = ['490854','229103','116346',]
     const data = [
         {
             x: nomeDasRedes,
@@ -31,7 +31,7 @@ async function quantidadeUsuarios() {
         xaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'Nome das redes sociais',
+                text: 'Estado',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
