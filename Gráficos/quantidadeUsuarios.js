@@ -4,8 +4,8 @@ async function quantidadeUsuarios() {
     const url = 'https://raw.githubusercontent.com/guilhermeonrails/api/main/numero-usuarios.json'
     const res = await fetch(url)
     const dados = await res.json()
-    const nomeDasRedes = ['Amazonas','Bahia','Mato Grosso do Sul']
-    const quantidadeUsuarios = ['490854','229103','116346',]
+    const nomeDasRedes = ['Amazonas','Bahia','Mato Grosso do Sul','Pernambuco','Roraima','Pará','Mato Grosso','Maranhão','Ceará','São Paulo','Minas Gerais','Rio Grande do sul','Acre','Paraná','Paráiba','Alagoas','Santa Catarina','Rondônia','Tocantins','Goiás','Rio de Janeiro','Espírito Santo','Rio Grande do Norte','Amapá','piauí','Distrito Federal','Sergipe']
+    const quantidadeUsuarios = ['490854','229103','116346','106634']
     const data = [
         {
             x: nomeDasRedes,
