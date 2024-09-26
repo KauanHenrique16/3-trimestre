@@ -21,7 +21,7 @@ async function quantidadeUsuarios() {
         plot_bgcolor: getCSS('--cor-de-fundo'),
         paper_bgcolor: getCSS('--cor-de-fundo'),
         title: {
-            text: 'Grafico de tribos indigenas no Brasil',
+            text: 'Outro Grafico',
             font: {
                 color: getCSS('--cor-principal'),
                 family: getCSS('--fonte'),
