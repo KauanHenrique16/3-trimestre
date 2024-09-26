@@ -5,7 +5,7 @@ async function quantidadeUsuarios() {
     const res = await fetch(url)
     const dados = await res.json()
     const nomeDasRedes = ['Volkswagen','Chevrolet','Ford','honda','bmw','fiat','subaru','audi','toyota','Nissan','mitsubish','hyundai','dodge','renault','mercedes-benz','citroen','peugeot','kia','porsche','jaguar',]
-    const quantidadeUsuarios = ['']
+    const quantidadeUsuarios = ['23,6%']
     const data = [
         {
             x: nomeDasRedes,
