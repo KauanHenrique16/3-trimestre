@@ -21,7 +21,7 @@ async function quantidadeUsuarios() {
         plot_bgcolor: getCSS('--cor-de-fundo'),
         paper_bgcolor: getCSS('--cor-de-fundo'),
         title: {
-            text: 'Idade dos indigenas no Paraná',
+            text: 'Idade dos indígenas no Paraná',
             font: {
                 color: getCSS('--cor-principal'),
                 family: getCSS('--fonte'),
