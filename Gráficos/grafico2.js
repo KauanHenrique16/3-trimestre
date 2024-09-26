@@ -21,7 +21,7 @@ async function quantidadeUsuarios() {
         plot_bgcolor: getCSS('--cor-de-fundo'),
         paper_bgcolor: getCSS('--cor-de-fundo'),
         title: {
-            text: 'Número de resgastes de trabalhadores rurais em condição análoga à escravidão',
+            text: 'Idade dos indigenas no Paraná',
             font: {
                 color: getCSS('--cor-principal'),
                 family: getCSS('--fonte'),
