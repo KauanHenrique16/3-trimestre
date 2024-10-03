@@ -10,7 +10,7 @@ async function visualizarInformacoesGlobais() {
     const porcentagemConectada = ((pessoasConectadas/pessoasMundo)*100).toFixed(2)
     const paragrafo = document.createElement('p')
     paragrafo.classList.add('graficos-container__texto')
-    paragrafo.innerHTML = `gghghgh `
+    paragrafo.innerHTML = `Esses são alguns graficos que achamos interessantes de colocar `
     const container = document.getElementById('graficos-container')
     container.appendChild(paragrafo)
 }
