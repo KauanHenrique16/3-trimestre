@@ -21,7 +21,7 @@ async function quantidadeUsuarios() {
         plot_bgcolor: getCSS('--cor-de-fundo'),
         paper_bgcolor: getCSS('--cor-de-fundo'),
         title: {
-            text: 'Gráfico de tribos indígenas no Brasil',
+            text: 'porcentagem de marcas de carros mais desejadas',
             font: {
                 color: getCSS('--cor-principal'),
                 family: getCSS('--fonte'),
