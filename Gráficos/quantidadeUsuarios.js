@@ -31,7 +31,7 @@ async function quantidadeUsuarios() {
         xaxis: {
             tickfont: tickConfig,
             title: {
-                text: 'idades',
+                text: 'tribos indígenas',
                 font: {
                     color: getCSS('--cor-secundaria')
                 }
